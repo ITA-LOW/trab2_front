@@ -8,7 +8,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Mergulho</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./js/bootstrap.js">
     <link rel="stylesheet" href="./css/jumbotron.css">
@@ -33,38 +33,45 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://www.ifsc.edu.br/web/campus-jaragua-do-sul" >IFSC</a>
+          <a class="navbar-brand" href="./index.html" >IFSC</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Experiência <span class="sr-only">(current)</span></a></li>
-            <li class="navbar-collapse collapse"><a href="#">Encontre um site de mergulho <span class="sr-only">(current)</span></a></li>
-            <li class="navbar-collapse collapse"><a href="#">Contato <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="./index.html">Experiência <span class="sr-only">(current)</span></a></li>
+            <li class="navbar-collapse collapse"><a href="./sitemergulo.html">Encontre um site de mergulho <span class="sr-only">(current)</span></a></li>
+            <li class="navbar-collapse collapse"><a href="./contato.html">Contato <span class="sr-only">(current)</span></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Registre-se</a></li>
+        <li><a href="./registro.html">Registre-se</a></li>
         <li><a href="#">Login</a></li>
         </div>
+        <!--/.navbar-collapse -->
+      </div>
     </nav>
 
     <div class="jumbotron">
       <div class="container">
         <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-            <form action="/pagina-processa-dados-do-form" method="post">
-            <div>
+            <form action="/pagina-processa-dados-do-form" method="post" >
+            <div >
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" size="50" maxlength="100" autofocus required placeholder="Entre com seu nome"/>
+                <br>
+                <input type="text" id="nome" size="60" maxlength="100" autofocus required placeholder="Entre com seu nome"/>
             </div>
             <div>
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" size="50" maxlength="100" autofocus required placeholder="Entre com seu nome"/>
+                <br>
+                <input type="email" id="email" size="60" maxlength="100" autofocus required placeholder="Entre com seu nome"/>
             </div>
             <div>
                 <label for="msg">Mensagem:</label>
-                <textarea id="msg" rows="4" cols="40" id="comments">
+                <br>
+                <textarea id="msg" rows="4" cols="62" id="comments">
                 </textarea>
+                <br>
+                <button type="submit" onclick="alert('Obrigado')">Enviar</button>
             </div>
             </form>
             </div>
